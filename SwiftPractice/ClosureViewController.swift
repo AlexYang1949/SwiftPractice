@@ -12,19 +12,15 @@ class ClosureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let funcX = getMathFunc("squence")
+        
+        let funcX = getMathFunc(type: "squence")
         print(funcX(123))
-        let funcY = getMathFuncWithClosure("squence")
+        let funcY = getMathFuncWithClosure(type: "squence")
         print(funcY(123))
         // Do any additional setup after loading the view.
         
     }
     
-    func test1() {
-        var block = {(val : Int)->Int in val * val}
-        print(block(6))
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Swift2 copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Swift2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>F9D6A2E41D9A1C3300FD6A6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9FF49141D9CE3DE008101B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
